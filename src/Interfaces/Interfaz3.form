@@ -28,7 +28,7 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Imagenes/Anime-5.png"/>
+          <Image iconType="3" name="/Imagenes/51202b09282d0.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -97,6 +97,7 @@
         </Property>
       </Properties>
       <Events>
+        <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Boton20MouseExited"/>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Boton20ActionPerformed"/>
       </Events>
       <Constraints>
@@ -171,6 +172,7 @@
         </Property>
       </Properties>
       <Events>
+        <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Boton19MouseExited"/>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Boton19ActionPerformed"/>
       </Events>
       <Constraints>

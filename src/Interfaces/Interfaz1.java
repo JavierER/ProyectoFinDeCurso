@@ -80,7 +80,7 @@ public class Interfaz1 extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        Interfaz6 window = new Interfaz6();
+        Interfaz5 window = new Interfaz5();
         window.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed

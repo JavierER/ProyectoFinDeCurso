@@ -33,27 +33,27 @@ public class Interfaz4 extends javax.swing.JFrame {
     private void ordenarCartas(){
 
         
-        Boton1.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a8.png")));
-        Boton2.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a6.png")));
-        Boton3.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a9.png")));
-        Boton4.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a3.png")));
+        Boton1.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a1.png")));
+        Boton2.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a2.png")));
+        Boton3.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a3.png")));
+        Boton4.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a4.png")));
         Boton5.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a5.png")));
-        Boton6.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a7.png")));
-        Boton7.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a4.png")));
-        Boton8.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a1.png")));
-        Boton9.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a0.png")));
-        Boton10.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a2.png")));
+        Boton6.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a6.png")));
+        Boton7.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a7.png")));
+        Boton8.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a8.png")));
+        Boton9.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a9.png")));
+        Boton10.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a0.png")));
         
-        Boton11.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a4.png")));
-        Boton12.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a7.png")));
-        Boton13.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a5.png")));
-        Boton14.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a1.png")));
-        Boton15.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a2.png")));
-        Boton16.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a9.png")));
-        Boton17.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a6.png")));
-        Boton18.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a3.png")));
-        Boton19.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a8.png")));
-        Boton20.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a0.png")));
+        Boton11.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a0.png")));
+        Boton12.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a9.png")));
+        Boton13.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a1.png")));
+        Boton14.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a3.png")));
+        Boton15.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a8.png")));
+        Boton16.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a2.png")));
+        Boton17.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a7.png")));
+        Boton18.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a4.png")));
+        Boton19.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a5.png")));
+        Boton20.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a6.png")));
     }
     
     //metodo para dejar las parejas que ya han sido seleccionadas en modo enabled=false;
@@ -135,7 +135,7 @@ public class Interfaz4 extends javax.swing.JFrame {
            !Boton19.isEnabled() && 
            !Boton20.isEnabled()){
            JOptionPane.showMessageDialog(this,"FELICIDADES HAS GANADO!","Win",JOptionPane.INFORMATION_MESSAGE);
-           Interfaz6 window = new Interfaz6();
+           Interfaz5 window = new Interfaz5();
            window.setVisible(true);
            this.setVisible(false);
         }        
@@ -173,8 +173,8 @@ public class Interfaz4 extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Anime-5.png"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 43, -1, 420));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/detective-conan.png"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 0, -1, 420));
 
         jButton22.setBackground(new java.awt.Color(0, 0, 0));
         jButton22.setFont(new java.awt.Font("One Smear", 2, 14)); // NOI18N
@@ -204,6 +204,11 @@ public class Interfaz4 extends javax.swing.JFrame {
         Boton20.setContentAreaFilled(false);
         Boton20.setFocusable(false);
         Boton20.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/reverso2.png"))); // NOI18N
+        Boton20.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                Boton20MouseExited(evt);
+            }
+        });
         Boton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Boton20ActionPerformed(evt);
@@ -253,6 +258,11 @@ public class Interfaz4 extends javax.swing.JFrame {
         Boton19.setContentAreaFilled(false);
         Boton19.setFocusable(false);
         Boton19.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/reverso2.png"))); // NOI18N
+        Boton19.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                Boton19MouseExited(evt);
+            }
+        });
         Boton19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Boton19ActionPerformed(evt);
@@ -712,9 +722,17 @@ public class Interfaz4 extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton21ActionPerformed
 
     private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
-        Interfaz6 window = new Interfaz6();
+        Interfaz5 window = new Interfaz5();
         window.setVisible(true);
     }//GEN-LAST:event_jButton22ActionPerformed
+
+    private void Boton19MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton19MouseExited
+       comparar();
+    }//GEN-LAST:event_Boton19MouseExited
+
+    private void Boton20MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton20MouseExited
+        comparar();
+    }//GEN-LAST:event_Boton20MouseExited
 
   
 

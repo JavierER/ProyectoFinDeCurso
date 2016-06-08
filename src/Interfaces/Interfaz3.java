@@ -173,7 +173,7 @@ public class Interfaz3 extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Anime-5.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/51202b09282d0.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 43, -1, 420));
 
         jButton22.setBackground(new java.awt.Color(0, 0, 0));
@@ -204,6 +204,11 @@ public class Interfaz3 extends javax.swing.JFrame {
         Boton20.setContentAreaFilled(false);
         Boton20.setFocusable(false);
         Boton20.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/reverso2.png"))); // NOI18N
+        Boton20.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                Boton20MouseExited(evt);
+            }
+        });
         Boton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Boton20ActionPerformed(evt);
@@ -253,6 +258,11 @@ public class Interfaz3 extends javax.swing.JFrame {
         Boton19.setContentAreaFilled(false);
         Boton19.setFocusable(false);
         Boton19.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/reverso2.png"))); // NOI18N
+        Boton19.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                Boton19MouseExited(evt);
+            }
+        });
         Boton19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Boton19ActionPerformed(evt);
@@ -712,9 +722,17 @@ public class Interfaz3 extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton21ActionPerformed
 
     private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
-        Interfaz6 window = new Interfaz6();
+        Interfaz5 window = new Interfaz5();
         window.setVisible(true);
     }//GEN-LAST:event_jButton22ActionPerformed
+
+    private void Boton19MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton19MouseExited
+        comparar();
+    }//GEN-LAST:event_Boton19MouseExited
+
+    private void Boton20MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton20MouseExited
+        comparar();
+    }//GEN-LAST:event_Boton20MouseExited
 
     
 
