@@ -33,27 +33,27 @@ public class Interfaz3 extends javax.swing.JFrame {
     private void ordenarCartas(){
 
         
-        Boton1.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a8.png")));
-        Boton2.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a6.png")));
-        Boton3.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a9.png")));
-        Boton4.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a3.png")));
-        Boton5.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a5.png")));
-        Boton6.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a7.png")));
+        Boton1.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a1.png")));
+        Boton2.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a3.png")));
+        Boton3.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a7.png")));
+        Boton4.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a9.png")));
+        Boton5.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a2.png")));
+        Boton6.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a6.png")));
         Boton7.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a4.png")));
-        Boton8.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a1.png")));
+        Boton8.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a5.png")));
         Boton9.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a0.png")));
-        Boton10.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a2.png")));
+        Boton10.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a8.png")));
         
-        Boton11.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a4.png")));
-        Boton12.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a7.png")));
-        Boton13.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a5.png")));
-        Boton14.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a1.png")));
-        Boton15.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a2.png")));
-        Boton16.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a9.png")));
-        Boton17.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a6.png")));
-        Boton18.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a3.png")));
-        Boton19.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a8.png")));
-        Boton20.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a0.png")));
+        Boton11.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a7.png")));
+        Boton12.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a0.png")));
+        Boton13.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a9.png")));
+        Boton14.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a3.png")));
+        Boton15.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a5.png")));
+        Boton16.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a6.png")));
+        Boton17.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a2.png")));
+        Boton18.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a8.png")));
+        Boton19.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a4.png")));
+        Boton20.setDisabledIcon(new ImageIcon(getClass().getResource("../Cartas/a1.png")));
     }
     
     //metodo para dejar las parejas que ya han sido seleccionadas en modo enabled=false;

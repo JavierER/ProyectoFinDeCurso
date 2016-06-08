@@ -5,7 +5,7 @@
  */
 package Interfaces;
 
-import Interfaces.Interfaz3;
+import Interfaces.Interfaz2;
 
 /**
  *
@@ -80,7 +80,7 @@ public class Interfaz1 extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        Interfaz3 window = new Interfaz3();
+        Interfaz6 window = new Interfaz6();
         window.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
